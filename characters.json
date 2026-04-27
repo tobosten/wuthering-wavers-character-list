@@ -1,0 +1,425 @@
+[
+  {
+    "name": "Augusta",
+    "element": "electro",
+    "quote": "When the rules are rigged, power turns into a weapon of destruction. Yet as I rewrite those rules with my own power, I realize just how much I still need to learn to keep Septimont balanced—and to lead as a true ruler.",
+    "skills": {
+      "normalAttack": {
+        "name": "Hunter's Path",
+        "description": "Heavy Attack - Thunderoar: Backstep;When Prowess is full, hold Normal Attack to cast this skill, then release Normal Attack to cast Heavy Attack - Thunderoar: Spinslash.;;Heavy Attack - Thunderoar: Uppercut;When Prowess is full, Jump to cast this skill.;;Prowess:;Augusta obtains Prowess when performing Basic Attack, Heavy Attack - Steelclash, Mid-air Attack, Mid-air Dodge Counter, Resonance Skill - Warrior's Blade, Dodge Counter, Dodge Counter - Heavy Attack, or Intro Skill - Stride of Goldenflare."
+      },
+      "resonanceSkill": {
+        "name": "Warrior's Blade",
+        "description": "Augusta leaps and slams down her Broadblade, dealing Electro DMG."
+      },
+      "forteCircuit": {
+        "name": "Call Me By the Sun",
+        "description": "Resonance Skill - Undying Sunlight: Strike;When Ascendancy is full, Resonance Skill is replaced with Resonance Skill - Undying Sunlight Strike, which can be chained with Resonance Skill - Undying Sunlight: Leap and Resonance Skill - Undying Sunlight: Plunge.;;Ascendancy;Obtain Ascendancy through Normal Attacks, Resonance Skill - Warrior's Blade, Intro Skill - Stride of Goldenflare; and Resonance Liberation - Sword of Eternal Oath."
+      },
+      "resonanceLiberation": {
+        "name": "Sunward Conquest",
+        "description": "Resonance Liberation - Sword of Eternal Oath;Press and release Resonance Liberation to cast this skill.;;Resonance Liberation - Sublime is the Sun When Majesty is full, hold Resonance Liberation to cast this skill and enter SwornAllegiance for 7s.;- During the Sworn Allegiance state, press or hold Normal Attack to perform up to 9 strikes, which unlocks a powerful finisher move.; While in Sworn Allegiance, hold Resonance Liberation to cast the finisher early.;;Majesty; - Augusta obtains 1 stack of Majesty when casting Resonance Skill - Undying Sunlight: Plunge.; - When other Resonators in the team cast Outro Skill under the effect of Augusta's Outro Skill, Augusta obtains 1 stack of Majesty.;"
+      },
+      "introSkill": {
+        "name": "Stride of Goldenflare",
+        "description": "Deal Electro DMG."
+      },
+      "outroSkill": {
+        "name": "Battlesong of the Unyielding",
+        "description": "The next Resonator switched onto the field gains the following effects, which end immediately if this Resonator is switched out: Gain DMG Amplification for all Attributes.; - Casting Outro Skill grants 1 stack of Majesty and 1 stack of Crown of Wills to Augusta in this team."
+      },
+      "passives": {
+        "statBonus": {
+          "modifier1": {
+            "name": "Crit. Rate+",
+            "stat": "Crit. Rate increased by 1.20%",
+            "stat2": "Crit. Rate increased by 2.80%"
+          },
+          "modifier2": {
+            "name": "ATK+",
+            "stat": "ATK increaded by 1.80%.",
+            "stat2": "ATK increased by 4.20%."
+          }
+        },
+        "inherentSkills": {
+          "inherentSkill1": {
+            "name": "Blazing Valor",
+            "description": "When Augusta is out of combat for over 4s, she gains Majesty and Crown of Wills.",
+            "img": ""
+          },
+          "inherentSkill2": {
+            "name": "Glory's Favor",
+            "description": "Augusta gains a shield when dealing damage.",
+            "img": ""
+          }
+        }
+      },
+      "resonanceChain": {
+        "chain1": {
+          "name": "Stained in Scorched Earth",
+          "description": "Stained in Scorched Earth - Each stack of Crown of Wills additionally increases Augusta's Crit. DMG by 15%.; - The max stack of Crown of Wills is increased to 2.; - Casting Intro Skill - Stride of Goldenflare now grants 1 stack of Crown of Wills.; - Resonance Skill - Undying Sunlight Strike, Resonance Skill - Undying Sunlight Leap, and Resonance Skill - Undying Sunlight Plunge are now immune to interruption."
+        },
+        "chain2": {
+          "name": "Cleansed in Crimson War",
+          "description": "- Crown of Wills provides additional effects: Each stack increases Augusta's Crit. Rate by 20%.; - For every 1% of Crit. Rate over 100%, Augusta gains 2% Crit. DMG increase, up to 100%."
+        },
+        "chain3": {
+          "name": "Forged in Rot and Ruin",
+          "description": "The following skills have their DMG Multiplier increased by 25%:; - Heavy Attack - Thunderoar: Backstep, Dodge Counter - Thunderoar: Backstep, Heavy Attack - Thunderoar: Spinslash, Heavy Attack - Thunderoar: Uppercut.; - Resonance Skill - Undying Sunlight: Plunge.; - Resonance Liberation - Sublime is the Sun: Sunborne, Resonance Liberation - Sublime is the Sun: Everbright Protector."
+        },
+        "chain4": {
+          "name": "Ascent in Sun and Glory",
+          "description": "Casting Intro Skill - Stride of Goldenflare increases the ATK of all Resonators in the team by 20% for 30s."
+        },
+        "chain5": {
+          "name": "Unshaken in Wrathful Tides",
+          "description": "The Shield provided by Inherent Skill - Glory's Favor is increased by 50%."
+        },
+        "chain6": {
+          "name": "Engraved in Radiant Light",
+          "description": "Augusta can now hold up to 4 stacks of Crown of Wills.; - For every 1% of Crit. Rate over 150%, Augusta gains 2% Crit.OMG increase, up to 50%.; - When Augusta performs Heavy Attack - Thunderoar: Spinslash or Heavy Attack - Thunderoar: Uppercut, she obtains 2 stacks of Crown of Wills. Augusta can only obtain 2 stacks of Crown of Wills every Is via Engraved in Radiant Light.; - While casting Heavy Attack - Thunderoar: Spinslash or Heavy Attack - Thunderoar: Uppercut, Thunder Rage is triggered at the spot, dealing two instances of with each instance Electro DMG, equal to 100% of Augusta's ATK, considered as Heavy Attack DMG."
+        }
+      }
+    }
+  },
+
+
+  {
+    "name": "Lynae",
+    "element": "spectro",
+    "quote": "",
+    "skills": {
+      "normalAttack": {
+        "name": "",
+        "description": ""
+      },
+      "resonanceSkill": {
+        "name": "",
+        "description": ""
+      },
+      "forteCircuit": {
+        "name": "",
+        "description": ""
+      },
+      "resonanceLiberation": {
+        "name": "",
+        "description": ""
+      },
+      "introSkill": {
+        "name": "",
+        "description": ""
+      },
+      "outroSkill": {
+        "name": "",
+        "description": ""
+      },
+      "passives": {
+        "statBonus": {
+          "modifier1": {
+            "name": "",
+            "stat": "",
+            "stat2": ""
+          },
+          "modifier2": {
+            "name": "",
+            "stat": "",
+            "stat2": ""
+          }
+        },
+        "inherentSkills": {
+          "inherentSkill1": {
+            "name": "",
+            "description": "",
+            "img": ""
+          },
+          "inherentSkill2": {
+            "name": "",
+            "description": "",
+            "img": ""
+          }
+        }
+      },
+      "resonanceChain": {
+        "chain1": {
+          "name": "",
+          "description": ""
+        },
+        "chain2": {
+          "name": "",
+          "description": ""
+        },
+        "chain3": {
+          "name": "",
+          "description": ""
+        },
+        "chain4": {
+          "name": "",
+          "description": ""
+        },
+        "chain5": {
+          "name": "",
+          "description": ""
+        },
+        "chain6": {
+          "name": "",
+          "description": ""
+        }
+      }
+    }
+  },
+
+  {
+    "name": "",
+    "element": "",
+    "quote": "",
+    "skills": {
+      "normalAttack": {
+        "name": "",
+        "description": ""
+      },
+      "resonanceSkill": {
+        "name": "",
+        "description": ""
+      },
+      "forteCircuit": {
+        "name": "",
+        "description": ""
+      },
+      "resonanceLiberation": {
+        "name": "",
+        "description": ""
+      },
+      "introSkill": {
+        "name": "",
+        "description": ""
+      },
+      "outroSkill": {
+        "name": "",
+        "description": ""
+      },
+      "passives": {
+        "statBonus": {
+          "modifier1": {
+            "name": "",
+            "stat": "",
+            "stat2": ""
+          },
+          "modifier2": {
+            "name": "",
+            "stat": "",
+            "stat2": ""
+          }
+        },
+        "inherentSkills": {
+          "inherentSkill1": {
+            "name": "",
+            "description": "",
+            "img": ""
+          },
+          "inherentSkill2": {
+            "name": "",
+            "description": "",
+            "img": ""
+          }
+        }
+      },
+      "resonanceChain": {
+        "chain1": {
+          "name": "",
+          "description": ""
+        },
+        "chain2": {
+          "name": "",
+          "description": ""
+        },
+        "chain3": {
+          "name": "",
+          "description": ""
+        },
+        "chain4": {
+          "name": "",
+          "description": ""
+        },
+        "chain5": {
+          "name": "",
+          "description": ""
+        },
+        "chain6": {
+          "name": "",
+          "description": ""
+        }
+      }
+    }
+  },
+
+  {
+    "name": "",
+    "element": "",
+    "quote": "",
+    "skills": {
+      "normalAttack": {
+        "name": "",
+        "description": ""
+      },
+      "resonanceSkill": {
+        "name": "",
+        "description": ""
+      },
+      "forteCircuit": {
+        "name": "",
+        "description": ""
+      },
+      "resonanceLiberation": {
+        "name": "",
+        "description": ""
+      },
+      "introSkill": {
+        "name": "",
+        "description": ""
+      },
+      "outroSkill": {
+        "name": "",
+        "description": ""
+      },
+      "passives": {
+        "statBonus": {
+          "modifier1": {
+            "name": "",
+            "stat": "",
+            "stat2": ""
+          },
+          "modifier2": {
+            "name": "",
+            "stat": "",
+            "stat2": ""
+          }
+        },
+        "inherentSkills": {
+          "inherentSkill1": {
+            "name": "",
+            "description": "",
+            "img": ""
+          },
+          "inherentSkill2": {
+            "name": "",
+            "description": "",
+            "img": ""
+          }
+        }
+      },
+      "resonanceChain": {
+        "chain1": {
+          "name": "",
+          "description": ""
+        },
+        "chain2": {
+          "name": "",
+          "description": ""
+        },
+        "chain3": {
+          "name": "",
+          "description": ""
+        },
+        "chain4": {
+          "name": "",
+          "description": ""
+        },
+        "chain5": {
+          "name": "",
+          "description": ""
+        },
+        "chain6": {
+          "name": "",
+          "description": ""
+        }
+      }
+    }
+  },
+
+
+
+
+  {
+    "name": "",
+    "element": "",
+    "quote": "",
+    "skills": {
+      "normalAttack": {
+        "name": "",
+        "description": ""
+      },
+      "resonanceSkill": {
+        "name": "",
+        "description": ""
+      },
+      "forteCircuit": {
+        "name": "",
+        "description": ""
+      },
+      "resonanceLiberation": {
+        "name": "",
+        "description": ""
+      },
+      "introSkill": {
+        "name": "",
+        "description": ""
+      },
+      "outroSkill": {
+        "name": "",
+        "description": ""
+      },
+      "passives": {
+        "statBonus": {
+          "modifier1": {
+            "name": "",
+            "stat": "",
+            "stat2": ""
+          },
+          "modifier2": {
+            "name": "",
+            "stat": "",
+            "stat2": ""
+          }
+        },
+        "inherentSkills": {
+          "inherentSkill1": {
+            "name": "",
+            "description": "",
+            "img": ""
+          },
+          "inherentSkill2": {
+            "name": "",
+            "description": "",
+            "img": ""
+          }
+        }
+      },
+      "resonanceChain": {
+        "chain1": {
+          "name": "",
+          "description": ""
+        },
+        "chain2": {
+          "name": "",
+          "description": ""
+        },
+        "chain3": {
+          "name": "",
+          "description": ""
+        },
+        "chain4": {
+          "name": "",
+          "description": ""
+        },
+        "chain5": {
+          "name": "",
+          "description": ""
+        },
+        "chain6": {
+          "name": "",
+          "description": ""
+        }
+      }
+    }
+  }
+]
