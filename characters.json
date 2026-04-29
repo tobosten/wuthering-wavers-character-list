@@ -2,7 +2,7 @@
   {
     "name": "Augusta",
     "element": "electro",
-    "quote": "When the rules are rigged, power turns into a weapon of destruction. Yet as I rewrite those rules with my own power, I realize just how much I still need to learn to keep Septimont balanced—and to lead as a true ruler.",
+    "quote": "When the rules are rigged, power turns into a weapon of destruction. Yet as I rewrite those rules with my own power, I realize just how much I still need to learn to keep Septimont balancedâ€”and to lead as a true ruler.",
     "skills": {
       "normalAttack": {
         "name": "Hunter's Path",
@@ -27,6 +27,10 @@
       "outroSkill": {
         "name": "Battlesong of the Unyielding",
         "description": "The next Resonator switched onto the field gains the following effects, which end immediately if this Resonator is switched out: Gain DMG Amplification for all Attributes.; - Casting Outro Skill grants 1 stack of Majesty and 1 stack of Crown of Wills to Augusta in this team."
+      },
+      "tuneBreak": {
+        "name": "Tune Break: Broadblade",
+        "description": "When the target's Off-Tune Level is full, the Resonator may cast Tune Break on the target."
       },
       "passives": {
         "statBonus": {
@@ -87,7 +91,7 @@
   {
     "name": "Lynae",
     "element": "spectro",
-    "quote": "A bright, big place to call my own. Friends to learn with. Allies to fight Everything I've ever wanted is right here. So even when the training is over„. this doesn't just end, right? Keep teaching me. Trust me with more. This peace, this beautiful life... I'm going to fight like hell to protect it.",
+    "quote": "A bright, big place to call my own. Friends to learn with. Allies to fight Everything I've ever wanted is right here. So even when the training is overâ€ž. this doesn't just end, right? Keep teaching me. Trust me with more. This peace, this beautiful life... I'm going to fight like hell to protect it.",
     "skills": {
       "normalAttack": {
         "name": "Chroma Drift",
@@ -112,6 +116,10 @@
       "outroSkill": {
         "name": "Let's Hit the Road!",
         "description": "Attack the target and deal 1000/0 Spectro DMG. The next incoming Resonator gain 15% All DMG Amplification and 25% Resonance Liberation DMG Amplification for 14s or until they are switched out.;Lynae leaves the Kaleidoscopic Parade state upon casting Outro Skill."
+      },
+      "tuneBreak": {
+        "name": "Spectral Analysis",
+        "description": "Lynae can inflict Tune Rupture - Shiftinq or Tune Strain - Shiftinq on targets.; Lynae can respond to Tune Rupture - Interfered and Tune Strain - Interfered. - Responding to Tune Rupture - Interfered: When any Resonator in the team deals Tune Break DMG and inflicts the Tune Rupture - Interfered state, Lynae casts Tune Rupture Response - Spectral Analysis. Each target can be damaged by this skill up to once every 8s. - Responding to Tune Strain - Interfered: For each stack of Tune Strain - Interfered on the. target, each point of Lynae's Tune Break Boost increases her total DMG against that target by 0.12%. When Lynae is in the team, the target's max stack limit of Tune Strain - Interfered is increased by 1.; When the target's Off-Tune Level is full, Lynae can cast Tune Break on the target."
       },
       "passives": {
         "statBonus": {
@@ -169,6 +177,94 @@
   },
 
   {
+    "name": "Mornye",
+    "element": "fusion",
+    "quote": "This takes me back to my first journey to the frostlands. Wind and snow stung my cheeks. It was the first time I felt alive, after a lifetime in a wheelchair. Thank you for bringing that feeling back to me... once again.",
+    "skills": {
+      "normalAttack": {
+        "name": "Ground State Calibration",
+        "description": "Basic Attack Perform up to 4 consecutive attacks, dealing Fusion DMG.;; Heavy Attack; Consume STA to attack the target, dealing Fusion DMG.;; Basic Attack - Wide Field Observation Mode; While in Wide Field Observation Mode, Basic Attack is replaced with Basic Attack - Wide Field Observation Mode.; Perform up to 3 consecutive attacks, dealing Fusion DMG.;; Mid-air Attack; Consume STA to perform Mid-air Plunging Attack, dealing Fusion DMG .;Press Normal Attack within a certain time afterward to cast Basic Attack Stage 3.;; Dodge Counter; Press Normal Attack right after a successful Dodge to attack the target, dealing Fusion DMG.; Press Normal Attack shortly after performing this attack to perform Basic Attack Stage 2.;; Dodge Counter - Wide Field Observation Mode; While in Wide Field Observation Mode, Dodge Counter is replaced with Dodge Counter - Wide Field Observation Mode.; Press Normal Attack right after a successful Dodge to counterattack and deal Fusion DMG.; Within a certain time afterward, press Normal Attack to cast Basic Attack - Wide Field Observation Mode Stage 3."
+      },
+      "resonanceSkill": {
+        "name": "Resolution",
+        "description": "Expectation Error; Heal all nearby Resonators in the team and enter the Parry state, during which DMG taken is reduced by 100% for a time. Switching to another Resonator ends this state immediately.; If attacked while in the Parry state, exit the state and cast Resonance Skill - Optimal Solution.; If not attacked while in the Parry state, press Normal Attack to exit the state and cast Basic Attack Stage 2.;; Optimal Solution; Stagnate nearby targets and deal Fusion DMG, reducing the cooldown of Resonance Skill - Expectation Error by 2s.; Switching to another Resonator ends the Stagnation effect early.;; Distributed Array; While in Wide Field Observation Mode, Resonance Skill is replaced with Resonance Skill - Distributed Array. Heal all nearby Resonators in the team and summon Hover Cannons to strike the target, dealing Fusion DMG."
+      },
+      "forteCircuit": {
+        "name": "Mass-Energy Equivalence",
+        "description": "Baseline Mode; While in her default Baseline Mode, Mornye gains Rest Mass Energy.;; Heavy Attack - Geopotential Shift; When Rest Mass Enerqy reaches points, Heavy Attack is replaced with Heavy Attack - Geopotential Shift.; Cast Heavy Attack - Geopotential Shift to deal Fusion DMG, considered Heavy Attack DMG.; Afterward, Mornyejumps into mid-air, consumes all Rest Mass Energy and enters Wide Field Observation Mode.;; Wide Field Observation Mode; Wide Field Observation Mode lasts for 30s. - Upon entering Wide Field Observation Mode, Mornye generates a Syntonyfield.; - While in Wide Field Observation Mode, Mornye gains Relative Momentum.; - If Relative Momentum is below 100 when holding Normal Attack, perform Basic Attack - Wide Field Observation Mode Stage 1 to 3 in sequence.;- If Relative Momentum reÃ¥ches 100 during this time, cast Heavy Attack - Inversion instead.; - While moving, Mornye continuously consumes STA. STA cannot be recovered while in Wide Field Observation Mode.; - When Dodging with directional input, Mornye starts to fly at speed, which lasts for up to IOS or until STA is depleted or until the Wide Field Observation Mode ends.; - Press Jump and Mornye will slowly descend. Before she lands, Basic Attack - Wide Field Observation Mode, Resonance Skill - Distributed Array, and Heavy Attack - Inversion are unavailable. If Jump is pressed when Mornye runs out of STA, she will exit the Wide Field Observation Mode. She will leave the Wide Field Observation Mode also when she Dodges, Jumps, or performs Mid-air Attacks.; Additionally, performing environmental interactions, using Utilities, or switching to another Resonator ends Wide Field Observation Mode. The state also ends when Mornye is no longer airborne.;; Syntony Field; - Syntony Field lasts for 25s.; - When the Syntony Field is generated, deal Fusion DMG, considered Resonance Liberation DMG.; - Continuously restores HP for nearby active Resonators in the team within the Syntony Field, triggered once every 3s.; - Increases the Off-Tune Buildup Rate of all nearby Resonators in the team within the Syntony Field by 50%.; - Enhances the resistance to interruption of nearby active Resonators in the team within the Syntony Field.;; Heavy Attack - Inversion; - When Relative Momentum reaches 100 points, Heavy Attack is replaced with Heavy Attack - Inversion.; - Consume all Relative Momentum to cast Heavy Attack - Inversion, dealing Fusion DMG, considered Heavy Attack DMG.; - Heavy Attack - Inversion inflicts Observation Marker upon the target on hit for 30s.;; Observation Marker; When a Resonator in the team deals Tune Break DMG to a target inflicted with Observation Marker, Mornye inflicts an Interfered Marker on the target for 8s.;; Interfered Marker; Targets affected by Tune Rupture - Interfered or Tune Strain - Interfered take increased DMG from all nearby Resonators in the team.; For every 1% of Mornye's Energy Regen exceeding 100%, their DMG is increased by 0.25%, up to 40%.;; Visual Field; When a Resonator in the team defeats a target inflicted with Observation Marker or Interfered Marker, Mornye gains Visual Field for 3s. While in this state, Mornye inflicts Observation Marker on the target hit whenever any Resonator in the team deals damage.;; Tune Rupture Response - Particle Jet; Mornye deals one instance of Fusion DMG to targets in the Tune Rupture - Interfered state within range, considered Tune Rupture DMG.;; Rest Mass Energy; Mornye can hold up to 100 points of Rest Mass Energy.; While in Baseline Mode, she gains Rest Mass Energy when performing Basic Attack, Heavy Attack, Dodge Counter, or when Resonance Skill - Optimal Solution hits a target.;; Relative Momentum; Mornye can hold up to 100 points of Relative Momentum.; While in Wide Field Observation Mode, she gains Relative Momentum when Basic Attack - Wide Field Observation Mode, Dodge Counter - Wide Field Observation Mode or Resonance Skill - Distributed Array hits the target.; Mornye cannot gain Relative Momentum during Heavy Attack - Inversion."
+      },
+      "resonanceLiberation": {
+        "name": "Critical Protocol",
+        "description": "Attack the targets within the effective range, dealing Fusion DMG.; For every 1% of Mornye's Energy Regen exceeding 100%, this skill gains an additional 0.5% Crit Rate (up to 80%) and 1% Crit. DMG (up to 160%).; When casting this skill, if a Syntony Field is present, remove it and generate a Hiqh Syntony Field.; Can be performed in mid-air.;; High Syntony Field; - High Syntony Field lasts for 25s.; - Increases the DEF of all nearby Resonators in the team within the High Syntony Field by 20%.; -Inherits the Syntony Field's boost to resistance to interruption and Off-Tune Buildup Rate.; - Inherits the Syntony Field's healing effect and increases the Healing Multiplier by 40%."
+      },
+      "introSkill": {
+        "name": "Convergence",
+        "description": "Attack the target to deal Fusion DMG, then jump into mid-air, clearing all Rest Mass Enerqy and entering Wide Field Observation Mode."
+      },
+      "outroSkill": {
+        "name": "Recursion",
+        "description": "Resonators in the team gain 25% All DMG Amplification for 30s."
+      },
+      "tuneBreak": {
+        "name": "Tune Break: Geometric Refraction",
+        "description": "Mornye can respond to Tune Rupture - Interfered and Tune Strain - Interfered.; - Responding to Tune Rupture - Interfered: When any Resonator in the team deals Tune Break DMG and inflicts Tune Rupture - Interfered, Mornye casts Tune Rupture Response - Particle Jet. Each target can be damaged by this skill up to once every 8s.; - Responding to Tune Strain - Interfered: Each stack of Tune Strain - Interfered on the target increases Mornye's total DMG against them. Each of Mornye's Tune Break Boost increases the total DMG by 0.12%. While Mornye is in the team, the max stack limit of Tune Strain - Interfered on a target is increased by 1.; Mornye can perform Tune Break against the targets with full Off-Tune Level."
+      },
+      "passives": {
+        "statBonus": {
+          "modifier1": {
+            "name": "Healing Bonus+",
+            "stat": "Healing Bonus increased by 1.80%",
+            "stat2": "Healing Bonus increased by 4.20%"
+          },
+          "modifier2": {
+            "name": "DEF+",
+            "stat": "DEF increased by 2.28%",
+            "stat2": "DEF increased by 5.32%"
+          }
+        },
+        "inherentSkills": {
+          "inherentSkill1": {
+            "name": "Blueprint",
+            "description": "Mornye's Energy Regen is increased by 10%.; Casting Intro Skill - Convergence restores 20 points of Concerto Energy, triggered once every 20s.; Casting Basic Attack - Wide Field Observation Mode Stage 3 restores 20 points of Concerto Energy, triggered once every 20s.",
+            "img": ""
+          },
+          "inherentSkill2": {
+            "name": "Boundedness",
+            "description": "Casting Resonance Skill - Expectation Error or Resonance Skill - Distributed Array grants Proof of Boundedness to all Resonators in the team:; - Proof of Boundedness lasts for 60s and can be gained once every 5 min.; - When the active Resonator takes DMG greater than 30% of their Max HP, they instead take DMG equal to 30% of their Max HP. This effect can trigger up to 3 times. Proof of Boundedness is removed after triggering it 3 times.; - When the active Resonator takes a fatal blow, they are not downed by this instance of damage. This effect can trigger up to 1 time. Proof of Boundedness is removed after triggering it 1 time.; - When Proof of Boundedness is removed, the active Resonator restores HP equal to 150% of Mornye's DEF.",
+            "img": ""
+          }
+        }
+      },
+      "resonanceChain": {
+        "chain1": {
+          "name": "The Silent Observer",
+          "description": "â€¢ Basic Attack â€” Wide Field Observation Mode becomes immune to interruption.; The duration of Interfered Marker is extended by 150%. Interfered Marker now grants DMG increase even when the target is not affected by Tune Rupture - Interfered or Tune Strain - Interfered. Wh Mornye applies 0b rvation-Marker on a target, she also inflicts Interfered Markel."
+        },
+        "chain2": {
+          "name": "Morning Star of Entropy",
+          "description": "â€¢ All nearby Resonators in the team gain Crit DMG increase against targets with Interfered Marker:; Every 1% of Mornye's Energy Regen over 100% grants 0.2% Crit. DMG increase, up to 32%.; Syntony Field and High Syntony Field further increase the Off-Tune Buildup Rate of all nearby Resonators in the te m by_20%."
+        },
+        "chain3": {
+          "name": "Blueprint of Recursion",
+          "description": "â€¢ Casting Resonance Skill - Distributed Array additionally restores 25 points of Concerto Energy and 100 Relative Momentum, triggered once every 25s."
+        },
+        "chain4": {
+          "name": "Latent Variables of the Cosmos",
+          "description": "â€¢ The healing of Hiqh Syntony Field is increased by 30%."
+        },
+        "chain5": {
+          "name": "Time DIlation Effect",
+          "description": "â€¢ The DMG Multiplier of Resonance Liberation - Critical Protocol is increased by 40%.; The DMG Multiplier of Tune Rupture Response - Particle Jet is increased by 160%."
+        },
+        "chain6": {
+          "name": "To the Far Shores of the Stars",
+          "description": "â€¢ Resonance Liberation - Critical Protocol deals 400% more DMG. If Mornye has not engaged in combat for over 4s, she restores Resonance Energy equal to 100/0 of her Max Resonance Energy every 0.2s."
+        }
+      }
+    }
+  },
+
+  {
     "name": "",
     "element": "",
     "quote": "",
@@ -194,6 +290,10 @@
         "description": ""
       },
       "outroSkill": {
+        "name": "",
+        "description": ""
+      },
+      "tuneBreak": {
         "name": "",
         "description": ""
       },
@@ -252,90 +352,6 @@
     }
   },
 
-  {
-    "name": "",
-    "element": "",
-    "quote": "",
-    "skills": {
-      "normalAttack": {
-        "name": "",
-        "description": ""
-      },
-      "resonanceSkill": {
-        "name": "",
-        "description": ""
-      },
-      "forteCircuit": {
-        "name": "",
-        "description": ""
-      },
-      "resonanceLiberation": {
-        "name": "",
-        "description": ""
-      },
-      "introSkill": {
-        "name": "",
-        "description": ""
-      },
-      "outroSkill": {
-        "name": "",
-        "description": ""
-      },
-      "passives": {
-        "statBonus": {
-          "modifier1": {
-            "name": "",
-            "stat": "",
-            "stat2": ""
-          },
-          "modifier2": {
-            "name": "",
-            "stat": "",
-            "stat2": ""
-          }
-        },
-        "inherentSkills": {
-          "inherentSkill1": {
-            "name": "",
-            "description": "",
-            "img": ""
-          },
-          "inherentSkill2": {
-            "name": "",
-            "description": "",
-            "img": ""
-          }
-        }
-      },
-      "resonanceChain": {
-        "chain1": {
-          "name": "",
-          "description": ""
-        },
-        "chain2": {
-          "name": "",
-          "description": ""
-        },
-        "chain3": {
-          "name": "",
-          "description": ""
-        },
-        "chain4": {
-          "name": "",
-          "description": ""
-        },
-        "chain5": {
-          "name": "",
-          "description": ""
-        },
-        "chain6": {
-          "name": "",
-          "description": ""
-        }
-      }
-    }
-  },
-
 
 
 
@@ -365,6 +381,10 @@
         "description": ""
       },
       "outroSkill": {
+        "name": "",
+        "description": ""
+      },
+      "tuneBreak": {
         "name": "",
         "description": ""
       },
