@@ -2,7 +2,7 @@
   {
     "name": "Augusta",
     "element": "electro",
-    "quote": "When the rules are rigged, power turns into a weapon of destruction. Yet as I rewrite those rules with my own power, I realize just how much I still need to learn to keep Septimont balancedâ€”and to lead as a true ruler.",
+    "quote": "When the rules are rigged, power turns into a weapon of destruction. Yet as I rewrite those rules with my own power, I realize just how much I still need to learn to keep Septimont balanced and to lead as a true ruler.",
     "skills": {
       "normalAttack": {
         "name": "Hunter's Path",
@@ -91,7 +91,7 @@
   {
     "name": "Lynae",
     "element": "spectro",
-    "quote": "A bright, big place to call my own. Friends to learn with. Allies to fight Everything I've ever wanted is right here. So even when the training is overâ€ž. this doesn't just end, right? Keep teaching me. Trust me with more. This peace, this beautiful life... I'm going to fight like hell to protect it.",
+    "quote": "A bright, big place to call my own. Friends to learn with. Allies to fight Everything I've ever wanted is right here. So even when the training is over, this doesn't just end, right? Keep teaching me. Trust me with more. This peace, this beautiful life... I'm going to fight like hell to protect it.",
     "skills": {
       "normalAttack": {
         "name": "Chroma Drift",
@@ -238,27 +238,27 @@
       "resonanceChain": {
         "chain1": {
           "name": "The Silent Observer",
-          "description": "â€¢ Basic Attack â€” Wide Field Observation Mode becomes immune to interruption.; The duration of Interfered Marker is extended by 150%. Interfered Marker now grants DMG increase even when the target is not affected by Tune Rupture - Interfered or Tune Strain - Interfered. Wh Mornye applies 0b rvation-Marker on a target, she also inflicts Interfered Markel."
+          "description": "Basic Attack - Wide Field Observation Mode becomes immune to interruption.; The duration of Interfered Marker is extended by 150%. Interfered Marker now grants DMG increase even when the target is not affected by Tune Rupture - Interfered or Tune Strain - Interfered. Wh Mornye applies 0b rvation-Marker on a target, she also inflicts Interfered Markel."
         },
         "chain2": {
           "name": "Morning Star of Entropy",
-          "description": "â€¢ All nearby Resonators in the team gain Crit DMG increase against targets with Interfered Marker:; Every 1% of Mornye's Energy Regen over 100% grants 0.2% Crit. DMG increase, up to 32%.; Syntony Field and High Syntony Field further increase the Off-Tune Buildup Rate of all nearby Resonators in the te m by_20%."
+          "description": "All nearby Resonators in the team gain Crit DMG increase against targets with Interfered Marker:; Every 1% of Mornye's Energy Regen over 100% grants 0.2% Crit. DMG increase, up to 32%.; Syntony Field and High Syntony Field further increase the Off-Tune Buildup Rate of all nearby Resonators in the te m by_20%."
         },
         "chain3": {
           "name": "Blueprint of Recursion",
-          "description": "â€¢ Casting Resonance Skill - Distributed Array additionally restores 25 points of Concerto Energy and 100 Relative Momentum, triggered once every 25s."
+          "description": "Casting Resonance Skill - Distributed Array additionally restores 25 points of Concerto Energy and 100 Relative Momentum, triggered once every 25s."
         },
         "chain4": {
           "name": "Latent Variables of the Cosmos",
-          "description": "â€¢ The healing of Hiqh Syntony Field is increased by 30%."
+          "description": "The healing of Hiqh Syntony Field is increased by 30%."
         },
         "chain5": {
           "name": "Time DIlation Effect",
-          "description": "â€¢ The DMG Multiplier of Resonance Liberation - Critical Protocol is increased by 40%.; The DMG Multiplier of Tune Rupture Response - Particle Jet is increased by 160%."
+          "description": "The DMG Multiplier of Resonance Liberation - Critical Protocol is increased by 40%.; The DMG Multiplier of Tune Rupture Response - Particle Jet is increased by 160%."
         },
         "chain6": {
           "name": "To the Far Shores of the Stars",
-          "description": "â€¢ Resonance Liberation - Critical Protocol deals 400% more DMG. If Mornye has not engaged in combat for over 4s, she restores Resonance Energy equal to 100/0 of her Max Resonance Energy every 0.2s."
+          "description": "Resonance Liberation - Critical Protocol deals 400% more DMG. If Mornye has not engaged in combat for over 4s, she restores Resonance Energy equal to 100/0 of her Max Resonance Energy every 0.2s."
         }
       }
     }
