@@ -266,7 +266,7 @@
 
   {
     "name": "1",
-    "element": "",
+    "element": "havoc",
     "quote": "",
     "skills": {
       "normalAttack": {
@@ -357,7 +357,7 @@
 
   {
     "name": "2",
-    "element": "",
+    "element": "havoc",
     "quote": "",
     "skills": {
       "normalAttack": {
